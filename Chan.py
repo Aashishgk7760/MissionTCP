@@ -44,7 +44,7 @@ class TCPRequestHandler(BaseRequestHandler):
         
         Sender = Base.GetKey(Packet_Rx_Decode.get('Source ID'))
 
-        if Packet_Rx_Decode.get('Ter Bit') == 1:
+        if Packet_Rx_Decode.get('Tera Bit') == 1:
            
             print('Ann -> Ordered Termination of the Connection!\n')
             Exit.set()
